@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'montseratt', sans-serif;
+  }
+  .app{
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-out;
+  }
+  /* .autor-class{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+  } */
+  .main-class{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    padding: 25px;
+  }
+  
+  .location-box .location{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  }
+  
+  .location-box .date{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+  }
+  .location-box{
+    text-align: center;
+  }
+  .weather-box .temp{
+  
+    display: inline-block;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 800;
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);  
+  }
+  
+  .weather-box .weather{
+    color: #FFF;
+    font-size: 38px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);  
+  }
+  .Smoke{
+    background-image: url(../img/axel-holen-w5NPrX9OqcM-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-outS;
+  }
+  .Clouds{
+    background-image: url(../img//lanah-nel-e0P5fkUTRFg-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-outS;
+  }
+  .Haze{
+    background-image: url(../img/jakob-owens-wvAuNXAcY3c-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-outS;
+  }
+  .Drizzle{
+    background-image: url(../img/filip-zrnzevic-_EMkxLdko9k-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-outS;
+  }
+  .Rain{
+    background-image: url(../img/filip-zrnzevic-_EMkxLdko9k-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-outS;
+  }
+  .Snow{
+    background-image: url(../img/664.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-outS;
+  }
+  .Normal{
+    background-image: url(../img/benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-outS;
+  }
+  
+  
+  @media (max-width: 767px){
+    img{
+      margin-top: -123px !important;
+      margin-left: 0px !important;
+    }
+    .weather1 {
+        margin-top: -123px !important;
+        margin-left: 106px !important;
+    }
+    
+    .weatherD {
+        margin-top: -0px !important;
+        margin-left: 0px !important;
+    }
+    .weatherMi {
+        margin-top: 12px !important;
+        margin-left: 0px !important;
+    }
+    .weatherMa {
+        margin-top: -27px !important;
+        margin-left: 87px !important;
+    }
+    
+  }
